@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,800,900&display=swap');
+:root {
+    --orange: #e24e2a;
+    --brown: #383838; /* rgb(56, 56, 56) */
+    --green: #538d6a;
+    --gray: #ececec;
+    --text: #555555;
+    --white: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
