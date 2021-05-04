@@ -157,7 +157,8 @@ nav input:checked + label {
 }
 
 nav input:checked + label + ul {
-  left: 0;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 nav ul {
@@ -187,9 +188,13 @@ nav ul {
     position: absolute;
     width: 100%;
     top: 100%;
-    left: 100%;
+    left: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0);
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease;
+    -webkit-transform-origin: right top;
+            transform-origin: right top;
   }
 }
 
